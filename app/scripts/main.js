@@ -8,7 +8,7 @@ window.onload = function() {
   var elevator = new Elevator({
     element: document.querySelector('.elevator-button'),
     targetElement: document.querySelector('#elevator-target'),
-    mainAudio: '/music/panda.mp3',
-    endAudio: '/music/panda.mp3'
+    mainAudio: '/images/panda.mp3',
+    endAudio: '/images/panda.mp3'
   });
 }
