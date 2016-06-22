@@ -89,21 +89,9 @@ body {
 }
 
 .blue{
-  background-color : #222222;
+  background-color : #cbe6f1;
 }
 
 .brown{
-  background-color : #222222;
-}
-
-.donut-inner {
-  margin-top: -100px;
-  margin-bottom: 100px;
-}
-.donut-inner h5 {
-  margin-bottom: 5px;
-  margin-top: 0;
-}
-.donut-inner span {
-  font-size: 12px;
+  background-color : #ebc4b5;
 }
