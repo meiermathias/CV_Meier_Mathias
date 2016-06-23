@@ -7,7 +7,8 @@
     "font-awesome-bower": "^4.5.0",
     "bootswatch": "^3.3.6+2",
     "jquery-smooth-scroll": "^1.7.2",
-    "touche": "*"
+    "touche": "*",
+    "Chart.js": "^2.1.6"
   },
   "overrides": {
     "bootstrap": {
