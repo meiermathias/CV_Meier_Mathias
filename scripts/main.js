@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$("a").smoothScroll({speed:1e4})}),window.onload=function(){new Elevator({element:document.querySelector(".elevator-button"),targetElement:document.querySelector("#elevator-target"),mainAudio:"/images/panda.mp3",endAudio:"/images/panda.mp3"})};
