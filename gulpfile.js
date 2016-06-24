@@ -165,7 +165,7 @@ var deploy = require('gulp-deploy-git');
 gulp.task('deploy', function() {
   return gulp.src('**/*',  { read: false, cwd: 'dist'  })
     .pipe(deploy({
-      repository: 'git@github.com:heg-web/moncv-meiermathias',
+      repository: 'git@github.com:meiermathias/CV_Meier_Mathias',
       remoteBranch:   'gh-pages'
     }))
 });
