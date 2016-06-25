@@ -13,6 +13,7 @@ window.onload = function() {
   });
 }
 
+/*
 $('div.progress').each(function(i, obj){
 
   var label = $(obj).find('div').text();
@@ -37,3 +38,4 @@ var myChart = new Chart(replaceProgessDonut, {
   });
 
 });
+  */
