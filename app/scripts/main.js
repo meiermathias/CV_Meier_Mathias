@@ -1,3 +1,8 @@
+$(document).ready(function(){
+  'use strict';
+  $('a').smoothScroll({offset: -10, speed: 400});
+});
+
 var doughnutData = [
   {
     value: 70,
