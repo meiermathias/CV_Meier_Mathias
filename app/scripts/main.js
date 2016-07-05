@@ -110,3 +110,9 @@ var doughnutData = [
   }
 ];
 var myDoughnut = new Chart(document.getElementById('suiteOffice').getContext('2d')).Doughnut(doughnutData);
+
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+});
