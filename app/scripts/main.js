@@ -5,11 +5,11 @@ $(document).ready(function(){
 
 var doughnutData = [
   {
-    value: 70,
+    value: 85,
     color: '#1abc9c'
   },
   {
-    value: 30,
+    value: 15,
     color: '#ecf0f1'
   }
 ];
@@ -17,42 +17,6 @@ var myDoughnut = new Chart(document.getElementById('java').getContext('2d')).Dou
 
 var doughnutData = [
   {
-    value: 90,
-    color: '#1abc9c'
-  },
-  {
-    value: 10,
-    color: '#ecf0f1'
-  }
-];
-var myDoughnut = new Chart(document.getElementById('cSharp').getContext('2d')).Doughnut(doughnutData);
-
-var doughnutData = [
-  {
-    value: 65,
-    color: '#1abc9c'
-  },
-  {
-    value: 35,
-    color: '#ecf0f1'
-  }
-];
-var myDoughnut = new Chart(document.getElementById('pascal').getContext('2d')).Doughnut(doughnutData);
-
-var doughnutData = [
-  {
-    value: 80,
-    color: '#1abc9c'
-  },
-  {
-    value: 20,
-    color: '#ecf0f1'
-  }
-];
-var myDoughnut = new Chart(document.getElementById('HTMLCSS').getContext('2d')).Doughnut(doughnutData);
-
-var doughnutData = [
-  {
     value: 70,
     color: '#1abc9c'
   },
@@ -61,15 +25,51 @@ var doughnutData = [
     color: '#ecf0f1'
   }
 ];
+var myDoughnut = new Chart(document.getElementById('cSharp').getContext('2d')).Doughnut(doughnutData);
+
+var doughnutData = [
+  {
+    value: 75,
+    color: '#1abc9c'
+  },
+  {
+    value: 25,
+    color: '#ecf0f1'
+  }
+];
+var myDoughnut = new Chart(document.getElementById('pascal').getContext('2d')).Doughnut(doughnutData);
+
+var doughnutData = [
+  {
+    value: 95,
+    color: '#1abc9c'
+  },
+  {
+    value: 5,
+    color: '#ecf0f1'
+  }
+];
+var myDoughnut = new Chart(document.getElementById('HTMLCSS').getContext('2d')).Doughnut(doughnutData);
+
+var doughnutData = [
+  {
+    value: 85,
+    color: '#1abc9c'
+  },
+  {
+    value: 15,
+    color: '#ecf0f1'
+  }
+];
 var myDoughnut = new Chart(document.getElementById('bootstrap').getContext('2d')).Doughnut(doughnutData);
 
 var doughnutData = [
   {
-    value: 50,
+    value: 40,
     color: '#1abc9c'
   },
   {
-    value: 50,
+    value: 60,
     color: '#ecf0f1'
   }
 ];
@@ -77,11 +77,11 @@ var myDoughnut = new Chart(document.getElementById('icefacesJsf').getContext('2d
 
 var doughnutData = [
   {
-    value: 50,
+    value: 30,
     color: '#1abc9c'
   },
   {
-    value: 50,
+    value: 70,
     color: '#ecf0f1'
   }
 ];
@@ -101,11 +101,11 @@ var myDoughnut = new Chart(document.getElementById('swing').getContext('2d')).Do
 
 var doughnutData = [
   {
-    value: 50,
+    value: 95,
     color: '#1abc9c'
   },
   {
-    value: 50,
+    value: 5,
     color: '#ecf0f1'
   }
 ];
